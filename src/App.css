@@ -1,38 +1,147 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: grid;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+img {
+  width: 65%;
+}
+
+.menu {
+  position: fixed;
+  top: 1rem;
+  right:1rem;
+  border-radius: 6px;
+  background: rgba(11, 25, 148, 0.808);
+  transition: all 0.3s ease-in-out; 
+}
+
+[data-aos="fade-up-20"] {
+  opacity: 0;
+  transition-property: transform, opacity;
+
+  &.aos-animate {
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+
+    transform: translateY(20px) !important;
+    z-index: 10 !important;
+
+    &.aos-animate {
+      transform: translateY(0) !important;
+    }
+}
+
+.social-icon {
+  padding: 20px 0 20px 0;
+}
+.social-icon a {
+  width: 42px;
+  height: 42px;
+  background: rgba(119, 70, 70, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid rgba(177, 135, 135, 0.5);
+}
+.social-icon a::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+.social-icon a img {
+width: 100%;
+z-index: 1;
+transition: 0.3s ease-in-out;
+}
+.social-icon a:hover img {
+filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+.resume a {
+  padding: 10px 40px 10px 40px;
+  border-radius: 10px;
+  background: rgba(173, 154, 154, 0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid rgba(11, 9, 112, 0.5);
+}
+.resume a:hover {
+  background: rgba(70, 72, 230, 0.801);
+  transition: 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.884);
+}
+.connect img {
+  filter: brightness(100%) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(0%);
+  width: 50%;
+  cursor: pointer;
+}
+.connect a {
+  animation: text 5s infinite;
+}
+.connect img:hover {
+  transform: translateX(10px);
+  transition: 0.3s;
+}
+@keyframes text {
+  0% {
+    color: #4f46e5;
   }
+  25% {
+    color: #ffffff;
+  }
+  50% {
+    color: aqua;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.footer img {
+  animation: updown 5s linear infinite;
+}
+@keyframes updown {
+  0% {
+      transform: translateY(-20px);
+  }
+  50% {
+      transform: translateY(20px);
+  }
+  100% {
+      transform: translateY(-20px);
+  }
+}
+
+.skill img:hover {
+  transform: translateY(-2px);
 }
