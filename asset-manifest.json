@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a59f0a57.css",
-    "main.js": "/static/js/main.6641db06.js",
-    "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
-    "static/media/contact.png": "/static/media/contact.10a836929ba25c2ca4f0.png",
-    "static/media/project2.jpg": "/static/media/project2.f15cd7224920a6febe02.jpg",
-    "static/media/profile.png": "/static/media/profile.a7ab8f77a836bafc5b92.png",
-    "static/media/project1.jpg": "/static/media/project1.de08771a99daff5c74f3.jpg",
-    "static/media/project3.jpg": "/static/media/project3.110de1ef4f6aea4e7493.jpg",
-    "static/media/curriculum-vitae.png": "/static/media/curriculum-vitae.3acc2d726dae3a56dbd0.png",
-    "static/media/Resume.pdf": "/static/media/Resume.e67dd4268f14381664be.pdf",
-    "index.html": "/index.html",
-    "static/media/78.75p.svg": "/static/media/78.75p.ed7982223012d08c6683202b8df4f459.svg",
-    "static/media/87.5o.svg": "/static/media/87.5o.6fa20596cefc728e986d9ff526d94915.svg",
-    "static/media/84.5p.svg": "/static/media/84.5p.1787106f9ffc8d899524652bf101bd52.svg",
-    "main.a59f0a57.css.map": "/static/css/main.a59f0a57.css.map",
-    "main.6641db06.js.map": "/static/js/main.6641db06.js.map",
-    "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
+    "main.css": "/Pongs-portfolio/static/css/main.a59f0a57.css",
+    "main.js": "/Pongs-portfolio/static/js/main.7eace13d.js",
+    "static/js/453.b21437c2.chunk.js": "/Pongs-portfolio/static/js/453.b21437c2.chunk.js",
+    "static/media/contact.png": "/Pongs-portfolio/static/media/contact.10a836929ba25c2ca4f0.png",
+    "static/media/project2.jpg": "/Pongs-portfolio/static/media/project2.f15cd7224920a6febe02.jpg",
+    "static/media/profile.png": "/Pongs-portfolio/static/media/profile.a7ab8f77a836bafc5b92.png",
+    "static/media/project1.jpg": "/Pongs-portfolio/static/media/project1.de08771a99daff5c74f3.jpg",
+    "static/media/project3.jpg": "/Pongs-portfolio/static/media/project3.110de1ef4f6aea4e7493.jpg",
+    "static/media/curriculum-vitae.png": "/Pongs-portfolio/static/media/curriculum-vitae.3acc2d726dae3a56dbd0.png",
+    "static/media/Resume.pdf": "/Pongs-portfolio/static/media/Resume.e67dd4268f14381664be.pdf",
+    "index.html": "/Pongs-portfolio/index.html",
+    "static/media/78.75p.svg": "/Pongs-portfolio/static/media/78.75p.ed7982223012d08c6683202b8df4f459.svg",
+    "static/media/87.5o.svg": "/Pongs-portfolio/static/media/87.5o.6fa20596cefc728e986d9ff526d94915.svg",
+    "static/media/84.5p.svg": "/Pongs-portfolio/static/media/84.5p.1787106f9ffc8d899524652bf101bd52.svg",
+    "main.a59f0a57.css.map": "/Pongs-portfolio/static/css/main.a59f0a57.css.map",
+    "main.7eace13d.js.map": "/Pongs-portfolio/static/js/main.7eace13d.js.map",
+    "453.b21437c2.chunk.js.map": "/Pongs-portfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a59f0a57.css",
-    "static/js/main.6641db06.js"
+    "static/js/main.7eace13d.js"
   ]
 }
